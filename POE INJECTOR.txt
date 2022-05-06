@@ -1,0 +1,11 @@
+POE INJECTOR
+A PoE injector, also called midspan or PoE adapter, can be implemented to make a non-PoE compatible switch work with PoE devices by powering compliant devices over a single Ethernet cable.
+
+When Ethernet switches or other devices have no PoE function but need to support PDs (Powered Devices) like PoE IP cameras, PoE wireless access points (WAP), PoE lighting, etc., a PoE injector can help transfer both power and data to these PDs up to 100 meters. Usually, a PoE injector converts the alternating current into the direct current so it can be the power supplier for low voltage PoE devices.
+
+PoE Injector Types
+
+Active vs. Passive PoE Injector
+A PoE injector follows the PoE standard IEEE802.3af, IEEE802.3at, or IEEE802.3bt—use active PoE. 802.3af/at/bt as a handshake between the power sending and receiving PoE devices. The 802.3af/at/bt injector won't power up if the receiving device doesn't provide the proper acknowledgment, which means the PoE injector will check the power coming in and if the power doesn't meet the device requirements it won't get powered up, ensuring the safety of the PoE device. Normally, 802.3 af/at/bt PoE voltage will always be 44 to 57 volts DC.
+
+A passive PoE injector, however, adopts PoE technology that does not conform to the 802.3af, 802.3at, or 802.3bt standard. Passive PoE devices usually run on 18 to 48 volts DC. If the wrong voltage is connected, it may cause permanent electrical damage to the device.
